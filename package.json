@@ -1,0 +1,32 @@
+{
+  "name": "1strb-api",
+  "version": "1.0.0",
+  "description": "API for 1stRB clan Discord and SquadJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-dev": "set DEBUG=1strb-api:* && npm start",
+    "start-prod": "set NODE_ENV=production && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdcornelison/1strb-api.git"
+  },
+  "author": "James Cornelison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdcornelison/1strb-api/issues"
+  },
+  "homepage": "https://github.com/jdcornelison/1strb-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "node-color-log": "^10.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
